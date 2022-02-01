@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<!--
+    Name: Mehak Singla
+    Date created: June 28, 2021
+    Most recent revision: 
+-->
+
+<html>
+    <head>
+        <title>Contacts</title>
+
+        <link href="styles/main.css" rel="stylesheet" type="text/css"/>
+
+    </head>
+
+    <body>
+        <header>
+            <h1>Contact Me</h1>
+        </header>
+
+        <nav>
+            <p><a href="contacts.html">Home</a></p>
+            <div class="clear-float"></div>
+        </nav>
+
+        <h2>Information Request</h2><br />
+
+        <br /><label for="firstName">First Name:</label><br />
+        <input type="text" name="firstName" id="firstName"><br />
+        <br /><label for="lastName">Last Name</label><br />
+        <input type="text" name="lastName" id="lastName"><br />
+        <br /><label for="phoneNumber">Phone Number</label><br />
+        <input type="text" name="phoneNumber" id="phoneNumber"><br />
+
+        <br /><label for="contacts">Best time to call</label><br />
+        <select id="contact" name="contact">
+            <option value="default" selected>-- Select One --</option>
+            <option value="morning">Morning (8AM to 12PM EST)</option>
+            <option value="afternoon">Afternoon (12PM to 5PM EST)</option>
+            <option value="evening">Evening (5PM to 8PM EST)</option>
+        </select>
+
+        <fieldset>
+            <legend>I am interested in (check all that apply)</legend>
+            <input type="checkbox" id="frontEnd" name="interest" value="frontEnd">
+            <label for="frontEnd">Front End Web Development</label><br />
+            <input type="checkbox" id="backEnd" name="interest" value="backEnd">
+            <label for="backEnd">Back End Web Development</label><br />
+            <input type="checkbox" id="database" name="interest" value="database">
+            <label for="database">Database Administrator</label><br />
+        </fieldset><br />
+
+        <fieldset>
+            <legend>I have filled in the client questionnaire form:</legend>
+            <input type="radio" id="choice1" name="questionnaire" value="yes">
+            <label for="yes">Yes</label><br />
+            <input type="radio" id="choice2" name="questionnaire" value="no">
+            <label for="no">No</label><br />
+        </fieldset>
+
+        <label for="info">Additional Information</label><br />
+        <textarea id="info" name="info"></textarea><br />
+
+        <input type="submit" name="submit" value="Submit">
+
+        <footer>
+            
+        </footer>
+    </body>
+</html>

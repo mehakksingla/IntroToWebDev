@@ -1,0 +1,11 @@
+/* Your header and footer must match across the pages, 
+so store their styles in an external file called restaurantStyles.css. */
+
+header, footer{
+    background-color: #b92d40;
+    color: #fef9ff;
+    text-align: center;
+    padding: 10px 5px 10px 5px;
+    max-width: 100%;
+}
+

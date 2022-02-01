@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<!--
+    Name : Mehak Singla
+    Date Created : June 21, 2021
+    Most recent revision : 
+-->
+<html lang="en">
+    <head>
+        <title>Home Page</title>
+        <style>
+            nav .btn{
+                background-color: floralwhite;
+                color: black;
+            }
+            nav .btn:hover{
+                font-weight: bold;
+            }
+            nav .btn:visited{
+                color: teal;
+                text-decoration: none;
+            
+            }
+            body{
+                background-color: salmon;
+            }
+        </style>
+    </head>
+
+    <body>
+        <header>
+            <!-- The header element typically includes a link to the website's home page, the page's title, 
+                and links to other pages in the website, and it usually appears across the top of the browser window.-->
+            <h1>Mehak Restaurant</h1>
+            <link rel="stylesheet" href="Styles/restaurantStyles.css" type="text/css">
+        </header>
+        
+        <nav>
+        <!-- We need to add links to home.html, menu.html, and contacts.html-->
+        <p><a class="btn" href= "homePage.html">Home</a></p>
+        <p><a class="btn" href= "menu.html">Menu</a></p>
+        <p><a class="btn" href = "contacts.html">Contact Us</a></p>
+        </nav>
+        
+        <section>
+            <article id = "restaurantDescription">
+                <h2><em>Restaurant Description</em></h2>
+                <!-- Applying css style on the image using inline style -->
+                <img src="images/restaurantdesc-918639_960_720.jpg" alt="Restaurant Description" width="200pi" height="150pi" style="border:thin brown solid;"/>
+                <p style="align-items: center;"></p>
+                <p>There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don't look even slightly believable. If you are going to use a passage of Lorem Ipsum, 
+                    you need to be sure there isn't anything embarrassing hidden in the middle of text. All the Lorem Ipsum generators on the Internet tend to repeat predefined chunks as necessary, making this the first true generator on the Internet. 
+                    It uses a dictionary of over 200 Latin words, combined with a handful of model sentence structures, to generate Lorem Ipsum which looks reasonable. The generated Lorem Ipsum is therefore always free from repetition, injected humour, or non-characteristic words etc.</p>   
+            </article>
+            
+        
+        <footer>
+            <p>
+                123 First Street, Toronto, ON M5W 2N9 <br />
+                905-789-4213
+            </p>
+        </footer>
+
+    </body>
+</html>
